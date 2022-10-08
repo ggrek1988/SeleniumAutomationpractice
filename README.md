@@ -5,7 +5,7 @@ This is a project with my scenarios, Web page http://automationpractice.com
 Scenario file "lista scenariuszy.ods"
 
 # Run all tests
-pytest <project directory>
+pytest [project directory]
 
 ## **Tools**
 Project is created with:
