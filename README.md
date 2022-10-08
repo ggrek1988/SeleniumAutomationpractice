@@ -1,5 +1,5 @@
-# PythonSeleniumEasy
-This is a project with my solution sample scenarios, Web page http://automationpractice.com
+# SeleniumAutomationpractice 
+This is a project with my scenarios, Web page http://automationpractice.com
 
 # Scenario File
 Scenario file "lista scenariuszy.ods"
@@ -13,5 +13,3 @@ Project is created with:
 * requests==2.28.1
 * selenium==4.5.0
 
-
-## **Example Solution** 
