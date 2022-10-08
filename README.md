@@ -1,6 +1,11 @@
 # PythonSeleniumEasy
 This is a project with my solution sample scenarios, Web page http://automationpractice.com
-Scenario [link do przypadków testowych](lista scenariuszy.ods)
+
+# Scenario File
+Scenario file "lista scenariuszy.ods"
+
+# Run all tests
+pytest <project directory>
 
 ## **Tools**
 Project is created with:
