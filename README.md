@@ -1,6 +1,6 @@
 # PythonSeleniumEasy
 This is a project with my solution sample scenarios, Web page http://automationpractice.com
-Scenario [lista scenariuszy.ods] 
+Scenario [link do przypadków testowych](lista scenariuszy.ods)
 
 ## **Tools**
 Project is created with:
