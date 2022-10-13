@@ -44,7 +44,7 @@ class TestLoginNewUser:
     @pytest.mark.run(order=3)
     def test_CheckOptionsCatalog(self):
         print(f' W sekcji Catalog zaznaczamy Styles, Size,Price, oraz sortujemy dane "Sort by"')
-        self.driver.get("http://automationpractice.com/index.php?id_category=9&controller=category")
+        
         # given
 
         # when
