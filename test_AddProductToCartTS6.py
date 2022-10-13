@@ -15,31 +15,31 @@ from selenium.webdriver.support.ui import Select
 @pytest.mark.usefixtures("setup")
 class TestLoginNewUser:
 
-    # @pytest.mark.run(order=1)
-    # def test_OpenPage(self):
-    #     print(f' Wejscie na strone http://automationpractice.com')
-    #     # given
-    #
-    #     # when
-    #     self.driver.get("http://automationpractice.com")
-    #
-    #     # then
-    #     assert "My Store" in self.driver.title
-    #
-    # @pytest.mark.run(order=2)
-    # def test_OpenPageDress(self):
-    #     print(f' W menu odszukujemu i klikamy w Dress --> Casual Dresses')
-    #     # given
-    #
-    #     # when
-    #     we = self.driver.find_elements(by=By.XPATH, value='//a[@title="Dresses"]')[0]
-    #     mouseOverScript = "return arguments[0].click();"
-    #     self.driver.execute_script(mouseOverScript, we)
-    #     self.driver.find_element(by=By.XPATH,
-    #                              value="//div[@class='block_content']//ul[@class='tree dynamized']//a[contains(text(),'Casual Dresses')]").click()
-    #
-    #     # then
-    #     assert "http://automationpractice.com/index.php?id_category=9&controller=category" in str(self.driver.current_url)
+    @pytest.mark.run(order=1)
+    def test_OpenPage(self):
+        print(f' Wejscie na strone http://automationpractice.com')
+        # given
+    
+        # when
+        self.driver.get("http://automationpractice.com")
+    
+        # then
+        assert "My Store" in self.driver.title
+    
+    @pytest.mark.run(order=2)
+    def test_OpenPageDress(self):
+        print(f' W menu odszukujemu i klikamy w Dress --> Casual Dresses')
+        # given
+    
+        # when
+        we = self.driver.find_elements(by=By.XPATH, value='//a[@title="Dresses"]')[0]
+        mouseOverScript = "return arguments[0].click();"
+        self.driver.execute_script(mouseOverScript, we)
+        self.driver.find_element(by=By.XPATH,
+                                 value="//div[@class='block_content']//ul[@class='tree dynamized']//a[contains(text(),'Casual Dresses')]").click()
+    
+        # then
+        assert "http://automationpractice.com/index.php?id_category=9&controller=category" in str(self.driver.current_url)
 
     @pytest.mark.run(order=2)
     def test_CheckOptionsCatalog(self):
