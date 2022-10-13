@@ -41,7 +41,7 @@ class TestLoginNewUser:
         # then
         assert "http://automationpractice.com/index.php?id_category=9&controller=category" in str(self.driver.current_url)
 
-    @pytest.mark.run(order=2)
+    @pytest.mark.run(order=3)
     def test_CheckOptionsCatalog(self):
         print(f' W sekcji Catalog zaznaczamy Styles, Size,Price, oraz sortujemy dane "Sort by"')
         self.driver.get("http://automationpractice.com/index.php?id_category=9&controller=category")
@@ -71,7 +71,7 @@ class TestLoginNewUser:
         assert assertelement1 == 1
         assert assertelement2 == 1
 
-    @pytest.mark.run(order=3)
+    @pytest.mark.run(order=4)
     def test_TakeFirstProduct(self):
         print(f' Wybranie pierwszego produktu z listy""')
         # given
